@@ -18,37 +18,9 @@ import startCurriculum from '../screens/startCurriculum';
 import ListCourses from '../screens/ListCourses';
 import searchScreen from '../screens/searchScreen';
 import DrawerApp from '../screens/DrawerApp';
-import Notifications from "../Notifications/screens/Notifications";
-import NotificationDetail from '../Notifications/screens/NotificationDetail';
-import ProfileList from '../Profile/screens/ProfileList';
-import ProfileCreate from '../Profile/screens/ProfileCreate';
 
 
 const RootNavigator = StackNavigator({
-    ProfileList: {
-        screen: ProfileList,
-        navigationOptions: {
-          title: 'Profile List'
-        }
-    },
-    ProfileCreate: {
-        screen: ProfileCreate,
-        navigationOptions: {
-          title: 'Profile Create'
-        }
-    },
-    Notifications: {
-        screen: Notifications,
-        navigationOptions: {
-          title: 'Notification'
-        }
-    },
-    NotificationDetail: {
-        screen: NotificationDetail,
-        navigationOptions: {
-          title: 'Notification Details'
-        }
-    },
     Home: {
         screen: Home,
         navigationOptions: {
